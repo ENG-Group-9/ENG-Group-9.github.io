@@ -1,0 +1,249 @@
+<html>
+
+<head>
+    <style>
+        div.gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+
+        div.gallery-item {
+            margin: 5px;
+            border: 1px solid #ccc;
+            width: flex;
+        }
+
+        div.gallery-item:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery-item img {
+            width: 80%;
+            margin: auto;
+            display: block;
+            height: auto;
+            max-height: 400px;
+        }
+
+
+        div.gallery-item div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 1em;
+        }
+
+        h2 {
+            display: inline-block;
+            /* Added this line */
+        }
+
+        summary {
+            cursor: pointer;
+            /* Added this rule */
+        }
+
+        details {
+            padding-top: 0.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <title>Architecture Diagrams Gallery</title>
+    <h1>Architecture Diagrams Gallery</h1>
+
+    <section id="class-diagrams">
+        <details open>
+            <summary>
+                <h2>Class Diagrams</h2>
+                <hr>
+            </summary>
+            <div class="gallery">
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/classDiagram-v2.svg">
+                        <img src="img/classDiagram-v2.svg" alt="First refinement class diagram" width="300"
+                            height="200">
+                    </a>
+                    <div class="desc">Class Diagram v2</div>
+                </div>
+            </div>
+        </details>
+    </section>
+
+    <section id="behavioural-diagrams">
+        <details open>
+            <summary>
+                <h2>Behavioural Diagrams</h2>
+                <hr>
+            </summary>
+            <div class="gallery">
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/event-behavioural.svg">
+                        <img src="img/event-behavioural.svg" alt="Events behavioural diagram" width="300" height="200">
+                    </a>
+                    <div class="desc">Behavioural diagram for handling events</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/pause-behavioural.svg">
+                        <img src="img/pause-behavioural.svg" alt="Pausing behavioural diagram" width="600" height="400">
+                    </a>
+                    <div class="desc">Behavioural diagram for handling pausing</div>
+                </div>
+            </div>
+        </details>
+    </section>
+
+    <section id="crc-cards">
+        <details open>
+            <summary>
+                <h2>CRC Cards</h2>
+                <hr>
+            </summary>
+            <div class="gallery">
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-gameManager.svg">
+                        <img src="img/crc-gameManager.svg" alt="CRC card for GameManager class" width="300"
+                            height="200">
+                    </a>
+                    <div class="desc">CRC card for GameManager class</div>
+                </div>
+
+                <!-- --- From CRC 1.png --- -->
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-gameManager.svg">
+                        <img src="img/crc-gameManager.svg" alt="CRC card for GameManager class" width="300"
+                            height="200">
+                    </a>
+                    <div class="desc">CRC card for GameManager class</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-gameMenu.svg">
+                        <img src="img/crc-gameMenu.svg" alt="CRC card for GameMenu class" width="300" height="200">
+                    </a>
+                    <div class="desc">CRC card for GameMenu class</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-timeTracker.svg">
+                        <img src="img/crc-timeTracker.svg" alt="CRC card for TimeTracker class" width="300"
+                            height="200">
+                    </a>
+                    <div class="desc">CRC card for TimeTracker class</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-scoreTracker.svg">
+                        <img src="img/crc-scoreTracker.svg" alt="CRC card for ScoreTracker class" width="300"
+                            height="200">
+                    </a>
+                    <div class="desc">CRC card for ScoreTracker class</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-energyComponent.svg">
+                        <img src="img/crc-energyComponent.svg" alt="CRC card for EnergyComponent class" width="300"
+                            height="200">
+                    </a>
+                    <div class="desc">CRC card for EnergyComponent class</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-player.svg">
+                        <img src="img/crc-player.svg" alt="CRC card for Player class" width="300" height="200">
+                    </a>
+                    <div class="desc">CRC card for Player class</div>
+                </div>
+
+                <!-- --- From CRC 2.png --- -->
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-positionComponent.svg">
+                        <img src="img/crc-positionComponent.svg" alt="CRC card for PositionComponent class" width="300"
+                            height="200">
+                    </a>
+                    <div class="desc">CRC card for PositionComponent class</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-map.svg">
+                        <img src="img/crc-map.svg" alt="CRC card for Map class" width="300" height="200">
+                    </a>
+                    <div class="desc">CRC card for Map class</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-timetable.svg">
+                        <img src="img/crc-timetable.svg" alt="CRC card for Timetable class" width="300" height="200">
+                    </a>
+                    <div class="desc">CRC card for Timetable class</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-theoryTask.svg">
+                        <img src="img/crc-theoryTask.svg" alt="CRC card for TheoryTask class" width="300" height="200">
+                    </a>
+                    <div class="desc">CRC card for TheoryTask class</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-hciTask.svg">
+                        <img src="img/crc-hciTask.svg" alt="CRC card for HCITask class" width="300" height="200">
+                    </a>
+                    <div class="desc">CRC card for HCITask class</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-softwareTask.svg">
+                        <img src="img/crc-softwareTask.svg" alt="CRC card for SoftwareTask class" width="300"
+                            height="200">
+                    </a>
+                    <div class="desc">CRC card for SoftwareTask class</div>
+                </div>
+
+                <!-- --- From CRC 3.png --- -->
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-task.svg">
+                        <img src="img/crc-task.svg" alt="CRC card for Task class" width="300" height="200">
+                    </a>
+                    <div class="desc">CRC card for Task class</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-event.svg">
+                        <img src="img/crc-event.svg" alt="CRC card for Event class" width="300" height="200">
+                    </a>
+                    <div class="desc">CRC card for Event class</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-childEvents.svg">
+                        <img src="img/crc-childEvents.svg" alt="CRC card for Child Event classes" width="300"
+                            height="200">
+                    </a>
+                    <div class="desc">CRC card for Positive/Negative/HiddenEvent classes</div>
+                </div>
+
+                <div class="gallery-item">
+                    <a target="_blank" href="img/crc-item.svg">
+                        <img src="img/crc-item.svg" alt="CRC card for Item class" width="300" height="200">
+                    </a>
+                    <div class="desc">CRC card for Item class</div>
+                </div>
+            </div>
+        </details>
+    </section>
+</body>
+
+</html>
