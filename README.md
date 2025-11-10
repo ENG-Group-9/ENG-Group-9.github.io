@@ -13,7 +13,7 @@ As required by the assessment brief, here are all the deliverables for Assessmen
 
 ### 2. Software Deliverables
 * **[Download Executable Game (JAR)](Deliverables/EscapeFromUni-1.0.0.jar)**
-    **
+
 * **[View Source Code Repository (GitHub)](https://github.com/ENG-Group-9/escape-from-uni)**
 
 ### 3. Other Project Materials
