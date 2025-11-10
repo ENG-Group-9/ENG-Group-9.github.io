@@ -19,3 +19,9 @@
 [Executable JAR]()
 
 ## Others
+
+[Game Plan](https://docs.google.com/document/d/1Wxq3d5G33BJTzyVLBJVldKK1HUjnT4M8aDSTQm5eS74/edit?usp=sharing)
+
+[Planning Gallery](https://eng-group-9.github.io/planning/gallery.htm)
+
+[Architecture Gallery](https://eng-group-9.github.io/arch/gallery.htm)
